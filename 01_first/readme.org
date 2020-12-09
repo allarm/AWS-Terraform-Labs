@@ -1,0 +1,27 @@
+* First AWS Lab
+
+For my AWS labs I am using a =LinuxAcademy= =AWS= sandbox.
+
+* Authentication
+
+A ~wrong~ approach to your secrets is having them hard-coded in your =Terraform= code. You should not do that, it is not safe. But yeah, you can.
+
+#+begin_src terraform
+provider "aws" {
+  region     = "us-west-2"
+  access_key = "my-access-key"
+  secret_key = "my-secret-key"
+}
+#+end_src
+
+The =right= way to do it is to keep the secrets in enviromental variables. BTW, I don't see any harm in keeping the default region setting hard-coded.
+
+#+begin_src bash
+export AWS_ACCESS_KEY_ID="anaccesskey"
+export AWS_SECRET_ACCESS_KEY="asecretkey"
+export AWS_DEFAULT_REGION="us-west-1"
+#+end_src
+
+* Links
+
+- [[https://registry.terraform.io/providers/hashicorp/aws/latest/docs]] 
