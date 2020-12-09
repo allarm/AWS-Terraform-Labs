@@ -221,6 +221,8 @@ data "aws_ami" "ubuntu" {
 
 Awesome.
 
+You can find the =terraform= source [[https://github.com/allarm/AWS-Terraform-Labs/blob/main/01_first/main.tf][here]].
+
 * Links
 
 - [[https://github.com/allarm/AWS-Terraform-Labs][AWS and Terraform Labs]] 
