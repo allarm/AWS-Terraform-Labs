@@ -1,4 +1,8 @@
-* First AWS Lab
+#+title: First Lab
+#+categories[]:
+#+tags[]: aws lab terraform
+#+date: 2020-12-09T19:02:55+08:00
+#+draft: false
 
 For my AWS labs I am using a =LinuxAcademy= =AWS= sandbox.
 
