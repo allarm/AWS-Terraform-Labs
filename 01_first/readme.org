@@ -223,5 +223,6 @@ Awesome.
 
 * Links
 
+- [[https://github.com/allarm/AWS-Terraform-Labs][AWS and Terraform Labs]] 
 - [[https://registry.terraform.io/providers/hashicorp/aws/latest/docs]] 
 - [[https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance]] 
